@@ -1,0 +1,10 @@
+html, body {
+	height: 100%;
+	overflow: hidden;
+	background-color: #000;
+}
+
+/* big video */
+#big-video-vid, #big-video-vid_html5_api {
+	width: 100% !important;
+}
