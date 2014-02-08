@@ -13,11 +13,24 @@ require_once('config.php');
 	<link type="text/css" rel="stylesheet" href="<?= $config['root'] ?>bower_components/BigVideo.js/css/bigvideo.css" />
 
 	<!-- index page -->
+	<link type="text/css" rel="stylesheet" href="<?= $config['root'] ?>css/core.css" />
 	<link type="text/css" rel="stylesheet" href="<?= $config['root'] ?>css/index.css" />
 	<script type="text/javascript" src="<?= $config['root'] ?>js/index.js"></script>	
 
 </head>
 <body>
-	
+	<header id="banner">
+		<h1>
+			COMMERCIAL AND VIRAL VIDEO PRODUCTION SERVICES
+		</h1>
+		<h2>
+			Some more interesting information about my services. Click The Button!
+		</h2>
+		<div id="button">
+			<a class="button" href="<?= $config['root'] ?>about">
+				More Information
+			</a>
+		</div>
+	</header>
 </body>
 </html>
