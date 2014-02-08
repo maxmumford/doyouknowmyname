@@ -1,0 +1,19 @@
+html, body {
+	height: 100%;
+	background-color: #000;
+	font-family: "Hoefler Text", Constantia, "Bitstream Charter", Palatino, "Palatino Linotype", serif;
+	padding: 0px;
+	margin: 0px;
+}
+
+/* button */
+.button {
+	color: white;
+	border: 1px solid white;
+	padding: 20px;
+	text-decoration: none;
+	
+	-moz-border-radius: 10px; /* Firefox */  
+ 	-webkit-border-radius: 10px; /* Safari, Chrome */  
+ 	border-radius: 10px; /* CSS3 */  	
+}
