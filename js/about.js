@@ -4,6 +4,6 @@ $(function() {
     // initialize BigVideo
     BV = new $.BigVideo();
 	BV.init();
-	BV.show('../bg.jpg');
+	BV.show('http://dxggrqgexa4sl.cloudfront.net/about.png');
 
 });

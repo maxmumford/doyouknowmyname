@@ -1,5 +1,6 @@
 <?php
 require_once('config.php');
+$cms_contents = file_get_contents('https://googledrive.com/host/0B9fGr6w-dfLWYTA3THdSMHZoLXM/home.html');
 ?>
 <!DOCTYPE html>
 <html>
@@ -20,17 +21,7 @@ require_once('config.php');
 </head>
 <body>
 	<header id="banner">
-		<h1>
-			COMMERCIAL AND VIRAL VIDEO PRODUCTION SERVICES
-		</h1>
-		<h2>
-			Some more interesting information about my services. Click The Button!
-		</h2>
-		<div id="button">
-			<a class="button" href="<?= $config['root'] ?>about">
-				More Information
-			</a>
-		</div>
+		<?= str_replace('@@root@@', $config['root'], $cms_contents); ?>
 	</header>
 </body>
 </html>

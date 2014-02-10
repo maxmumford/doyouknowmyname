@@ -12,6 +12,19 @@
 	background-image: url('../imgs/transparent-40.png');
 }
 
+#about #content #videos iframe {
+	display: block;
+	margin-bottom: 30px;
+}
+
+#about #content #text {
+	padding-left: 20px
+}
+
+#about #content #text .button {
+	background-color: black;
+}
+
 td {
 	vertical-align: top; 
 }
