@@ -1,0 +1,3 @@
+# DoYouKnowMy.Name
+
+doyouknowmy.name is Leo Mumford's cinematography website designed to showcase his details and works. It was built by (MaxMakeDesign)[http://www.MaxMakeDesign.co.uk] in just 1 day and uses google drive as a rudimentary CMS, and loads heavy resources like video from amazon s3. It has now been superceeded by a jekyll version of the site, also built by (MaxMakeDesign)[http://www.MaxMakeDesign.co.uk].
